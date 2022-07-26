@@ -9,8 +9,8 @@
 		{
 			"name": "Scripting",
 			"item": [],
-			"_postman_id": "b1683205-1e87-419e-ba16-ffde5ecdd1a4",
-			"description": "It's time to work on your next challenge.\n\nLet's use the [Random User API](https://randomuser.me/) to learn how to script in Postman.\n\n1. **Add a request**: Add a request called `get random user` to the folder `Scripting` with the following details:\n  - `GET` method\n  - `https://randomuser.me/api/` request URL\n\n  Send the request to ensure a successful response and save your changes.\n1. **Add another request**: Add a second request called `echo the user` after the first one with the following details:\n  - `POST` method\n  - `https://postman-echo.com/post` request URL\n  - JSON request body formatted like this:\n```\n{\n    \"name\": \"Dawn Ellis\",\n    \"email\": \"dawn.ellis@example.com\",\n    \"id\": \"334eecea-607d-4111-90ee-e57bea971654\"\n}\n```\n1. **Chain the requests**: Return to the **Tests** tab of the first request to capture the data required for the second request. **Use collection variables** this time. Step through the workflow by running each request one at a time to ensure you are getting and setting the variables properly and passing the data correctly.\n1. **Run the collection**: Once you think you have it, run this folder using the [collection runner](https://learning.postman.com/docs/running-collections/intro-to-collection-runs/) to make sure there are no errors in the folder. If you want to run the entire collection instead of the folder, add [`postman.setNextRequest(null)`](https://learning.postman.com/docs/running-collections/building-workflows/) under the **Tests** tab of the second request to stop the collection run from continuing on to the next folder. Remember to save your changes.\n  \nOnce you complete these steps, move on to the next folder in this collection to submit your solution. Follow the instructions in the request documentation.",
+			"id": "b1683205-1e87-419e-ba16-ffde5ecdd1a4",
+			"description": "It's time to work on your next challenge. made a change\n\nLet's use the [Random User API](https://randomuser.me/) to learn how to script in Postman.\n\n1.  **Add a request**: Add a request called `get random user` to the folder `Scripting` with the following details:\n    \n    *   `GET` method\n    *   `https://randomuser.me/api/` request URL\n    \n    Send the request to ensure a successful response and save your changes.\n2.  **Add another request**: Add a second request called `echo the user` after the first one with the following details:\n    *   `POST` method\n    *   `https://postman-echo.com/post` request URL\n    *   JSON request body formatted like this:\n        \n        ```\n        {\n        \"name\": \"Dawn Ellis\",\n        \"email\": \"dawn.ellis@example.com\",\n        \"id\": \"334eecea-607d-4111-90ee-e57bea971654\"\n        }\n        \n        ```\n        \n3.  **Chain the requests**: Return to the **Tests** tab of the first request to capture the data required for the second request. **Use collection variables** this time. Step through the workflow by running each request one at a time to ensure you are getting and setting the variables properly and passing the data correctly.\n4.  **Run the collection**: Once you think you have it, run this folder using the [collection runner](https://learning.postman.com/docs/running-collections/intro-to-collection-runs/) to make sure there are no errors in the folder. If you want to run the entire collection instead of the folder, add [`postman.setNextRequest(null)`](https://learning.postman.com/docs/running-collections/building-workflows/) under the **Tests** tab of the second request to stop the collection run from continuing on to the next folder. Remember to save your changes.\n    \n\nOnce you complete these steps, move on to the next folder in this collection to submit your solution. Follow the instructions in the request documentation.",
 			"event": [
 				{
 					"listen": "prerequest",
@@ -119,7 +119,7 @@
 							}
 						}
 					],
-					"_postman_id": "f328f473-3319-43a0-a46b-4500946a1b75",
+					"id": "f328f473-3319-43a0-a46b-4500946a1b75",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -138,7 +138,7 @@
 					"response": []
 				}
 			],
-			"_postman_id": "191c2bbd-9346-42cc-9045-0a4f1fd8011a",
+			"id": "191c2bbd-9346-42cc-9045-0a4f1fd8011a",
 			"description": "Follow the instructions in the request documentation."
 		}
 	],
@@ -168,26 +168,22 @@
 		{
 			"id": "9b3dbdee-c439-4afd-a76f-eb7cdb0bbac7",
 			"key": "firstName",
-			"value": "",
-			"type": "string"
+			"value": ""
 		},
 		{
 			"id": "c3fa7878-2bf9-482c-8214-b8f6925c088c",
 			"key": "lastName",
-			"value": "",
-			"type": "string"
+			"value": ""
 		},
 		{
 			"id": "f3402c6e-e99b-4ede-b121-4ff9e6b4ec8d",
 			"key": "emailAddress",
-			"value": "",
-			"type": "string"
+			"value": ""
 		},
 		{
 			"id": "0e607b16-aac8-4f56-9fc6-62542d3bf5c7",
 			"key": "uuid",
-			"value": "",
-			"type": "string"
+			"value": ""
 		}
 	]
 }
