@@ -146,44 +146,50 @@
 		{
 			"listen": "prerequest",
 			"script": {
+				"id": "a8793ce8-a378-4e2f-96d0-81bd51ac2864",
 				"type": "text/javascript",
 				"exec": [
 					""
-				],
-				"id": "32cbd996-c82e-40e2-ba03-4b817f226ab3"
+				]
 			}
 		},
 		{
 			"listen": "test",
 			"script": {
+				"id": "3562f81a-0b0f-4da7-9e4e-dccd8006023a",
 				"type": "text/javascript",
 				"exec": [
 					""
-				],
-				"id": "54d2afb6-9a5e-4f11-8e08-119f989fb573"
+				]
 			}
 		}
 	],
 	"variable": [
 		{
-			"id": "9b3dbdee-c439-4afd-a76f-eb7cdb0bbac7",
+			"id": "e8b6b64c-a984-4585-a606-af89f2cb41bc",
 			"key": "firstName",
 			"value": ""
 		},
 		{
-			"id": "c3fa7878-2bf9-482c-8214-b8f6925c088c",
+			"id": "9fd8f5b4-ee19-464a-9952-5e952d9a8c8e",
 			"key": "lastName",
 			"value": ""
 		},
 		{
-			"id": "f3402c6e-e99b-4ede-b121-4ff9e6b4ec8d",
+			"id": "3601107f-7fb1-4b4b-966b-403c79a9ea2c",
 			"key": "emailAddress",
 			"value": ""
 		},
 		{
-			"id": "0e607b16-aac8-4f56-9fc6-62542d3bf5c7",
+			"id": "b13e38da-7917-4b42-a4e9-d2bee677a740",
 			"key": "uuid",
 			"value": ""
+		},
+		{
+			"id": "d7594cca-f8e2-4350-a3e4-7254b19f4a18",
+			"key": "collection_uid",
+			"value": "1686690-223924b8-26ea-497f-a7e3-637de44611a8",
+			"type": "string"
 		}
 	]
 }
